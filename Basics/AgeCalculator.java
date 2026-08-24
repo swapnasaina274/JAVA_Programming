@@ -13,15 +13,12 @@ public class AgeCalculator {
         System.out.print("Enter your birth year: ");
         int birthYear = scanner.nextInt();
 
-        // Basic arithmetic operation
         int currentYear = 2026; // Get the current year dynamically
                                 // int currentYear = Year.now().getValue();
         int age = currentYear - birthYear;
 
-        // Output result using string concatenation
         System.out.println("Hello " + name + ", you are " + age + " years old.");
 
-        // Close scanner (best practice)
         scanner.close();
     }
 }
