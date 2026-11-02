@@ -9,7 +9,6 @@ public class AgeCalculator {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
 
-        // Read integer input
         System.out.print("Enter your birth year: ");
         int birthYear = scanner.nextInt();
 
